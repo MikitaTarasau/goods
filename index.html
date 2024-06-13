@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Каталог товаров</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+<main class="container">
+	<header class="header">
+    	<h1 class="main-title">Каталог товаров</h1>
+		<div class="basket">Количество товаров: <span class="basket__counter">0</span></div>
+	</header>
+	<div class="goods-grid">
+		<div class="card">
+			<h2 class="card__title">HONOR 9S DUA-LX9</h2>
+			<p class="card__description">Android, экран 5.45" IPS (720x1440) 60 Гц, Mediatek MT6762 Helio P22, ОЗУ 2 ГБ, память 32 ГБ, поддержка карт памяти, камера 8 Мп, аккумулятор 3020 мАч, 2 SIM (nano-SIM)</p>
+			<div class="card__image-wrap">
+				<img class="card__image" src="https://content.onliner.by/catalog/device/header/c2e8281bf9291ee2ed32d7291150c8f2.jpeg" alt="" />
+			</div>
+			<button class="card__detail">Подробнее</button>
+		</div>
+		<div class="card">
+			<h2 class="card__title">HONOR 10i HRY-LX1T</h2>
+			<p class="card__description">Android, экран 6.21" IPS (1080x2340), HiSilicon Kirin 710, ОЗУ 4 ГБ, 
+				память 128 ГБ, поддержка карт памяти, камера 24 Мп, аккумулятор 3400 мАч, 2 SIM (nano-SIM)</p>
+			<div class="card__image-wrap">
+				<img class="card__image" src="https://content.onliner.by/catalog/device/header/47e9e8c7edf4efe79abe5c5fb084ab01.jpeg" alt="" />
+			</div>
+			<button class="card__detail">Подробнее</button>
+		</div>
+		<div class="card">
+			<h2 class="card__title">HONOR 10i HRY-LX1T</h2>
+			<p class="card__description">Android, экран 6.21" IPS (1080x2340), HiSilicon Kirin 710, ОЗУ 4 ГБ, 
+				память 128 ГБ, поддержка карт памяти, камера 24 Мп, аккумулятор 3400 мАч, 2 SIM (nano-SIM)</p>
+			<div class="card__image-wrap">
+				<img class="card__image" src="https://content.onliner.by/catalog/device/header/0cbcd7a86bf39f682c5cf61f325f41f7.jpeg" alt="" />
+			</div>
+			<button class="card__detail">Подробнее</button>
+		</div>
+		<div class="card">
+			<h2 class="card__title">LG UltraGear 27GN800-B</h2>
+			<p class="card__description">27", 16:9, 2560x1440, IPS, 144 Гц, AMD FreeSync Premium/совместимый с 
+				NVIDIA G-Sync, интерфейсы HDMI+DisplayPort</p>
+			<div class="card__image-wrap">
+				<img class="card__image" src="https://content.onliner.by/catalog/device/header/d8301d68651271a2504a9ff271d208a2.jpeg" alt="" />
+			</div>
+			<button class="card__detail">Подробнее</button>
+		</div>
+		<div class="card">
+			<h2 class="card__title">ViewSonic VA2445-LED</h2>
+			<p class="card__description">23.6", 16:9, 1920x1080, TN+Film, 60 Гц, интерфейсы DVI+D-Sub (VGA)</p>
+			<div class="card__image-wrap">
+			<img class="card__image" src="https://content.onliner.by/catalog/device/header/744682775f087fd3a4e1a3cbefa7dc05.jpg" alt="" />
+			</div>
+			<button class="card__detail primary-text">Подробнее</button>
+		</div>
+		<div class="card">
+			<h2 class="card__title">Gigabyte GeForce GT 1030</h2>
+			<p class="card__description">2 ГБ GDDR5, 1227 МГц / 1506 МГц, 64 бит, HDMI, DVI</p>
+			<div class="card__image-wrap">
+			<img class="card__image" src="https://content.onliner.by/catalog/device/header/b90ab4f93cca4098450afe078e092e1c.png" alt="" />
+			</div>
+			<button class="card__detail">Подробнее</button>
+		</div>
+	</div>
+</main>
+<dic class="modal">
+	<div class="modal__wrap">
+		<p class="modal__title"></p>
+		<p class="modal__description"></p>
+		<img class="modal__image" src="" alt="" />
+		<p class="modal__counter primary-text"></p>
+		<button class="modal__add primary-text">Добавить в корзину</button>
+	</div>
+	<div class="modal__hide">
+		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-x-circle" viewBox="0 0 16 16">
+			<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+			<path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+		</svg>
+	</div>
+</div>
+<script defer src="app.js"></script>
+</body>
+</html>
+
